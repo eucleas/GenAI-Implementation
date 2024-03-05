@@ -1,0 +1,29 @@
+# CHATGPTASSISTANTCALL
+
+**CHATGPTASSISTANTCALL** is a BE application which shows to run generic CHATGPT and specific assistant
+
+### Prerequisites
+
+- Node.js (LTS version recommended)
+- npm (Comes installed with Node.js)
+
+### Installation
+
+1. Once cloned onto your local machine, install dependencies for the backend:
+
+- `npm install`
+
+### Running the application
+
+1. Start the Node/Express backend to call a basic ChatGPT by running:
+
+-  `node basicChatGPTCall.js`
+
+2. Start the Node/Express backend to call a basic Assistant by running:
+- `npm install colors`
+-  ` node assistantCall.js`
+
+3. before starting assistantDialog.js run below
+- `npm install readline-sync`
+-  ` node assistantDialog.js`
+
