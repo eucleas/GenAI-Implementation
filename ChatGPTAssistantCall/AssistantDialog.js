@@ -7,7 +7,7 @@ const readlineSync = require('readline-sync');
 const openai = new OpenAI();
 
 async function main() {
-const assistant = await openai.beta.assistants.retrieve('asst_lz427nbD82LylsyEeLaoQyKS');
+const assistant = await openai.beta.assistants.retrieve('asst_KeyID');
 
 //Create Thread
 const thread = await openai.beta.threads.create();
